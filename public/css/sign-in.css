@@ -1,0 +1,64 @@
+body{
+  margin:0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+div{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 15%;
+  right: 50%;
+  top: 40%;
+
+  border-width: 5px;
+  border-color: aqua;
+}
+form{
+  text-align: center;
+  
+}
+
+.signup{
+  margin: auto;
+  display: flex;
+  width:280px;
+  height: 40px;
+  box-shadow: 0px 0.5px 2px rgb(53, 53, 244);
+  text-align: center;
+  font-size: 20px;
+}
+button{
+  margin-top: 10px;
+  background-color: rgb(47, 47, 239);
+  text-align: center;
+  width: 290px;
+  height: 40px;
+  color: aliceblue;
+  font-size: large;
+  border-radius: 10px;
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size:30px ;
+  
+}
+.top{
+  border-radius:10px 10px 0px 0px ;
+  margin-bottom: -2px;
+}
+.bottom{
+  border-radius: 0px 0px 10px 10px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(11, 11, 84);
+}
+.signup:hover{
+  border-color: black;
+  text-shadow: 1px 0px rgb(0, 0, 0);
+}
